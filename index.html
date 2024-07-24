@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+</head>
+
+<body>
+    <header class="header__wrapper" id="header__wrapper">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#header__wrapper"><img src="images/bmw-transparent-bmw-free-free-png.webp" alt=""></a>
+            </div>
+            <nav>
+                <ul class="nav__menu">
+                    <li>
+                        <button id="model-button">
+                            Model
+                            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16">
+                                <path
+                                    d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z">
+                                </path>
+                            </svg>
+                        </button>
+                        <div class="nav__dropdown" id="dropdown">
+                            <div class="dropdown">
+                                <ul class="dropdown__list">
+                                    <li>
+                                        <a href="#about__e28">
+                                            <img src="images/e28.jpg" alt="">
+                                        </a>
+                                        <div class="item-title">
+                                            <h3>E28</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#about__e30">
+                                            <img src="images/e30.jpg" alt="">
+                                        </a>
+                                        <div class="item-title">
+                                            <h3>E30</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#about__e32">
+                                            <img src="images/e32.jpg" alt="">
+                                        </a>
+                                        <div class="item-title">
+                                            <h3>E32</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#about__e34">
+                                            <img src="images/e34.jpg" alt="">
+                                        </a>
+                                        <div class="item-title">
+                                            <h3>E34</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#about__e36">
+                                            <img src="images/e36.jpg" alt="">
+                                        </a>
+                                        <div class="item-title">
+                                            <h3>E36</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#about__e38">
+                                            <img src="images/e38.jpg" alt="">
+                                        </a>
+                                        <div class="item-title">
+                                            <h3>E38</h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <a href="#about">
+                            Logo History
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#retro__photos">
+                            Retro Pictures
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#newest">
+                            Newest
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#oldest">
+                            Oldest
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="actions__btn">
+            <button type="button" class="btn__login">
+                Log In
+            </button>
+            <button type="button" class="btn__register">
+                Register
+            </button>
+        </div>
+        <button aria-label="Open menu" class="burger-menu" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24"
+                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 8l16 0" />
+                <path d="M4 16l16 0" />
+            </svg>
+        </button>
+    </header>
+    <section class="content">
+        <img src="images/bg-image.jpg" class="cnt_img active" alt="">
+        <h1>
+            BMW FOREVER
+        </h1>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h1 class="heading__title">About Logo</h1>
+        </div>
+        <div class="history__container">
+            <div class="history__box">
+                <div class="history__img">
+                    <img src="images/first_logo_bmw.jpg" alt="">
+                </div>
+                <div class="history__years">
+                    <p>(1953-2020)</p>
+                </div>
+                <h2>Эмблема BMW показывает обратные баварские цвета</h2>
+                <p>Родной штат Баварии также должен был быть представлен на логотипе компании. Четверть внутреннего
+                    круга на значке BMW отображает цвета штата Бавария - белый и синий. Но они находятся в обратном
+                    порядке.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="history__box">
+                <div class="history__img">
+                    <img src="images/logo_history_2.png" alt="">
+                </div>
+                <div class="history__years">
+                    <p>(1953-2020)</p>
+                </div>
+                <h2>Эмблема BMW показывает обратные баварские цвета</h2>
+                <p>Родной штат Баварии также должен был быть представлен на логотипе компании. Четверть внутреннего
+                    круга на значке BMW отображает цвета штата Бавария - белый и синий. Но они находятся в обратном
+                    порядке.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="history__box">
+                <div class="history__img">
+                    <img src="images/logo__history_3.png" alt="">
+                </div>
+                <div class="history__years">
+                    <p>(2020-n.d)</p>
+                </div>
+                <h2>Эмблема BMW показывает обратные баварские цвета</h2>
+                <p>Родной штат Баварии также должен был быть представлен на логотипе компании. Четверть внутреннего
+                    круга на значке BMW отображает цвета штата Бавария - белый и синий. Но они находятся в обратном
+                    порядке.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="retro__photos" id="retro__photos">
+        <div class="retro__title">
+            <h1>Retro Photos</h1>
+        </div>
+        <div class="grid__photos">
+            <img src="images/retro-photos1.jpg" alt="" class="images__demo tall"
+                onclick="openModal('images/retro-photos1.jpg', 'Retro Photo 1')">
+            <img src="images/retro-photos2.jpg" alt="" class="images__demo wide"
+                onclick="openModal('images/retro-photos2.jpg', 'Retro Photo 2')">
+            <img src="images/retro-photos3.jpg" alt="" class="images__demo"
+                onclick="openModal('images/retro-photos3.jpg', 'Retro Photo 3')">
+            <img src="images/retro-photos4.jpg" alt="" class="images__demo big"
+                onclick="openModal('images/retro-photos4.jpg', 'Retro Photo 4')">
+            <img src="images/retro-photos5.webp" alt="" class="images__demo wide"
+                onclick="openModal('images/retro-photos5.webp', 'Retro Photo 5')">
+            <img src="images/retro-photos8.jpg" alt="" class="images__demo"
+                onclick="openModal('images/retro-photos8.jpg', 'Retro Photo 6')">
+            <img src="images/retro-photos7.jpg" alt="" class="images__demo big"
+                onclick="openModal('images/retro-photos7.jpg', 'Retro Photo 7')">
+            <img src="images/retro-photos6.avif" alt="" class="images__demo wide"
+                onclick="openModal('images/retro-photos6.avif', 'Retro Photo 8')">
+            <img src="images/retro-photos9.jpg" alt="" class="images__demo"
+                onclick="openModal('images/retro-photos9.jpg', 'Retro Photo 9')">
+            <img src="images/retro-photos10.jpg" alt="" class="images__demo"
+                onclick="openModal('images/retro-photos10.jpg', 'Retro Photo 10')">
+            <img src="images/retro-photos11.jpg" alt="" class="images__demo"
+                onclick="openModal('images/retro-photos11.jpg', 'Retro Photo 11')">
+            <img src="images/retro-photos12.jpg" alt="" class="images__demo tall"
+                onclick="openModal('images/retro-photos12.jpg', 'Retro Photo 12')">
+            <img src="images/retro-photos13.jpg" alt="" class="images__demo wide"
+                onclick="openModal('images/retro-photos13.jpg', 'Retro Photo 13')">
+            <img src="images/sadsda19.jpg" alt="" class="images__demo"
+                onclick="openModal('images/sadsda19.jpg', 'Retro Photo 14')">
+            <img src="images/retro-photos14.jpg" alt="" class="images__demo"
+                onclick="openModal('images/retro-photos14.jpg', 'Retro Photo 15')">
+            <img src="images/retro-photos15.jpg" alt="" class="images__demo tall"
+                onclick="openModal('images/retro-photos15.jpg', 'Retro Photo 16')">
+            <img src="images/retro-photos16.jpg" alt="" class="images__demo"
+                onclick="openModal('images/retro-photos16.jpg', 'Retro Photo 17')">
+            <img src="images/retro-photos17.jpg" alt="" class="images__demo wide"
+                onclick="openModal('images/retro-photos17.jpg', 'Retro Photo 18')">
+            <img src="images/retro-photos18.jpg" alt="" class="images__demo wide"
+                onclick="openModal('images/retro-photos18.jpg', 'Retro Photo 19')">
+            <img src="images/jsdaokadskoa22332.jpg" alt="" class="images__demo"
+                onclick="openModal('images/jsdaokadskoa22332.jpg', 'Retro Photo 20')">
+            <img src="images/kakaka.webp" alt="" class="images__demo wide"
+                onclick="openModal('images/kakaka.webp', 'Retro Photo 21')">
+            <img src="images/aasdsdads112.jpg" alt="" class="images__demo"
+                onclick="openModal('images/aasdsdads112.jpg', 'Retro Photo 22')">
+        </div>
+        <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <img id="modalImg" src="">
+                <div id="caption"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about__e28" id="about__e28">
+        <div class="retro__title">
+            <h1>BMW E28</h1>
+        </div>
+        <div class="container">
+            <div class="vehicle__image">
+                <img src="images/about_venicklee28.jpg" alt="BMW E28"
+                    style="display: block; box-sizing: border-box; margin: 0; padding: 0;">
+            </div>
+            <div class="vehicle__text">
+                <h2>Год выпуска: 1981—1987</h2>
+                <p>Основные характеристики E28 включают:
+                    Кузов: четырехдверный седан.
+                    Двигатели: широкий диапазон бензиновых и дизельных моторов, включая знаменитый рядный
+                    шестицилиндровый двигатель BMW M30.
+                    Инновации: антиблокировочная система (ABS), электронное управление топливной системой (Motronic)
+                    и улучшенная безопасность.
+                    Спортивные версии: BMW M5, которая в E28 впервые была представлена и стала одной из самых
+                    быстрых седанов своего времени.
+                </p>
+                <p>E28 славится своим сочетанием комфорта, управляемости и динамических характеристик, что делает
+                    его популярным среди автолюбителей и коллекционеров.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about__e30" id="about__e30">
+        <div class="retro__title">
+            <h1>BMW E30</h1>
+        </div>
+        <div class="container reverse-layout">
+            <div class="vehicle__text">
+                <h2>Год выпуска: 1982-1994</h2>
+                <p>Основные характеристики E30 включают:
+                    Кузовы: двухдверный и четырехдверный седаны, купе, кабриолет и универсал (Touring).
+                    Двигатели: широкий спектр бензиновых и дизельных моторов, от четырехцилиндровых до
+                    шестицилиндровых, включая высокопроизводительные версии.
+                    Инновации: возможность оснащения антиблокировочной системой (ABS), электронным управлением
+                    топливной системой и системой стабилизации.
+                    Спортивные версии: BMW M3, которая дебютировала в E30 и стала легендой автоспорта, благодаря
+                    многочисленным победам на гоночных трассах.
+                </p>
+                <p>E30 выделяется своими превосходными ходовыми качествами, сбалансированной управляемостью и
+                    элегантным дизайном. Эта модель получила культовый статус и до сих пор пользуется популярностью
+                    среди автолюбителей и коллекционеров.</p>
+            </div>
+            <div class="vehicle__image">
+                <img src="images/bmwe30.webp" alt="BMW E30">
+            </div>
+        </div>
+    </section>
+    <section class="about__e32" id="about__e32">
+        <div class="retro__title">
+            <h1>BMW E32</h1>
+        </div>
+        <div class="container">
+            <div class="vehicle__image">
+                <img src="images/bmw32.jpg" alt="">
+            </div>
+            <div class="vehicle__text">
+                <h2>Год выпуска: 1986—1994 </h2>
+                <p>Основные характеристики E32 включают:
+                    Кузов: четырехдверный седан.
+                    Двигатели: мощные рядные шестицилиндровые и V8, а также первый в истории BMW V12 двигатель.
+                    Инновации: первое применение таких технологий, как система контроля тяги (ASC), электронная система
+                    регулирования подвески (EDC), двухзонный климат-контроль, ксеноновые фары и интегрированная
+                    телефонная система.
+                    Роскошь и комфорт: высококачественные материалы отделки, улучшенные сиденья, расширенные функции
+                    безопасности и комфорта
+                </p>
+                <p>E32 известен своим сочетанием производительности, инноваций и роскоши, что сделало его одной из самых
+                    значимых моделей в истории BMW и популярным выбором среди любителей автомобилей премиум-класса.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about__e34" id="about__e34">
+        <div class="retro__title">
+            <h1>BMW E34</h1>
+        </div>
+        <div class="container reverse-layout">
+            <div class="vehicle__text">
+                <h2>Год выпуска: 1987-1996</h2>
+                <p>Основные характеристики E34 включают:
+                    Кузов: четырехдверный седан и пятидверный универсал (Touring).
+                    Двигатели: широкий спектр бензиновых и дизельных моторов, включая рядные четырехцилиндровые,
+                    шестицилиндровые и восьмицилиндровые двигатели.
+                    Инновации: возможность оснащения антиблокировочной системой (ABS), электронной системой стабилизации
+                    (ASC), противобуксовочной системой (TCS), двойной системой климат-контроля и подушками безопасности.
+                    Спортивные версии: BMW M5, которая в E34 была оснащена высокопроизводительными рядными
+                    шестицилиндровыми и восьмицилиндровыми двигателями и предлагала отличные динамические
+                    характеристики.
+                </p>
+                <p>E34 известен своим превосходным качеством сборки, комфортом и безопасностью. Он получил признание
+                    как среди автолюбителей, так и среди профессионалов, благодаря своим ездовым качествам и надежности.
+                    Сегодня E34 остается популярным выбором для тех, кто ищет классический BMW с хорошими
+                    характеристиками и долговечностью.</p>
+            </div>
+            <div class="vehicle__image">
+                <img src="images/bmwe34.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about__e36" id="about__e36">
+        <div class="retro__title">
+            <h1>BMW E36</h1>
+        </div>
+        <div class="container">
+            <div class="vehicle__image">
+                <img src="images/bmwe36.jpg" alt="">
+            </div>
+            <div class="vehicle__text">
+                <h2>Год выпуска: 1990—2000 </h2>
+                <p>Основные характеристики E36 включают:
+                    Кузовы: двухдверное купе, четырехдверный седан, кабриолет, компакт и универсал (Touring).
+                    Двигатели: широкий диапазон бензиновых и дизельных моторов, от четырехцилиндровых до
+                    шестицилиндровых, включая высокопроизводительные версии.
+                    Инновации: улучшенная аэродинамика, более жесткий кузов, независимая задняя подвеска,
+                    антиблокировочная система (ABS), подушки безопасности, система контроля устойчивости (ASC+T),
+                    ксеноновые фары и улучшенная система климат-контроля.
+                    Спортивные версии: BMW M3, ставший культовым автомобилем благодаря своим мощным рядным
+                    шестицилиндровым двигателям и выдающимся динамическим характеристикам.
+                </p>
+                <p>E36 выделяется своим современным дизайном, который значительно отличался от предыдущих поколений. Он
+                    был известен своей управляемостью, комфортом и высоким качеством сборки, что сделало его популярным
+                    выбором как среди любителей спортивных автомобилей, так и среди тех, кто искал надежный и комфортный
+                    автомобиль на каждый день. </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about__e38" id="about__e38">
+        <div class="retro__title">
+            <h1>BMW E38</h1>
+        </div>
+        <div class="container reverse-layout">
+            <div class="vehicle__text">
+                <h2>Год выпуска: 1994-2001</h2>
+                <p>Основные характеристики E38 включают:
+                    Кузов: четырехдверный седан с просторным салоном и роскошной отделкой.
+                    Двигатели: мощные бензиновые и дизельные моторы, включая V8 и V12, с высоким уровнем
+                    производительности и эффективности.
+                    Инновации: первое применение системы управления активной подвеской (EDC), адаптивной системы
+                    управления трансмиссией (ASC+T), навигационной системы, системы контроля давления в шинах (RDC) и
+                    телефонной системы.
+                    Роскошь и комфорт: высококачественные материалы отделки, эргономичные сиденья с массажем, двухзонный
+                    климат-контроль, аудиосистемы высокого класса и интеграция с современными технологиями.
+                </p>
+                <p>E38 славится своей элегантной внешностью, исключительной динамикой и безупречным уровнем комфорта.
+                    Он также предлагал различные версии с удлиненной колесной базой (L), что увеличивало пространство
+                    для задних пассажиров.E38 остается востребованным среди коллекционеров и любителей автомобилей
+                    благодаря своему статусу и впечатляющим техническим характеристикам, которые сделали его одним из
+                    наиболее значимых представителей 7-й серии BMW.</p>
+            </div>
+            <div class="vehicle__image">
+                <img src="images/bmwe38.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="newest" id="newest">
+        <div class="container_newest">
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="images/slider-img_1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="images/slider-img_2.avif" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="images/slider-img_3.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="images/slider_img4.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="images/slider_img_5.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="images/slider-img_6.jpg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="images/slider-img_1.jpg" style="width:100%" onclick="currentSlide(1)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/slider-img_2.avif" style="width:100%"
+                        onclick="currentSlide(2)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/slider-img_3.jpg" style="width:100%" onclick="currentSlide(3)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/slider_img4.jpg" style="width:100%" onclick="currentSlide(4)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/slider_img_5.jpg" style="width:100%" onclick="currentSlide(5)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/slider-img_6.jpg" style="width:100%" onclick="currentSlide(6)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="oldest" id="oldest">
+        <div class="container">
+            <div class="group">
+                <img class="item" src="images/old_img1.jpg" alt="">
+                <img class="item" src="images/old_img2.jpg" alt="">
+                <img class="item" src="images/old_img3.webp" alt="">
+                <img class="item" src="images/old_img4.jpg" alt="">
+                <img class="item" src="images/old_img5.jpg" alt="">
+                <img class="item" src="images/old_img6.jpg" alt="">
+                <img class="item" src="images/old_img7.jpg" alt="">
+                <img class="item" src="images/old_img8.webp" alt="">
+                <img class="item" src="images/old_img9.webp" alt="">
+                <img class="item" src="images/old_img10.jpg" alt="">
+                <img class="item" src="images/bmwe34.jpg" alt="">
+                <img class="item" src="images/bmwe36.jpg" alt="">
+                <img class="item" src="images/retro-photos18.jpg" alt="">
+              
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script>
+        window.addEventListener('scroll', revealOnScroll);
+
+function revealOnScroll() {
+    let sections = document.querySelectorAll('.about__e28, .about__e30, .about__e32, .about__e34, .about__e36, .about__e38');
+
+    sections.forEach(section => {
+        let sectionTop = section.getBoundingClientRect().top;
+        let windowHeight = window.innerHeight;
+        if (sectionTop < windowHeight * 0.75) {
+            section.classList.add('active');
+        } else {
+            section.classList.remove('active');
+        }
+    });
+}
+
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const modelButton = document.getElementById('model-button');
+            const dropdown = document.getElementById('dropdown');
+
+            // Обработчики для наведения на кнопку и дропдаун
+            modelButton.addEventListener('mouseover', () => {
+                dropdown.style.display = 'block';
+            });
+
+            dropdown.addEventListener('mouseover', () => {
+                dropdown.style.display = 'block';
+            });
+
+            modelButton.addEventListener('mouseout', (event) => {
+                if (!dropdown.contains(event.relatedTarget)) {
+                    dropdown.style.display = 'none';
+                }
+            });
+
+            dropdown.addEventListener('mouseout', (event) => {
+                if (!modelButton.contains(event.relatedTarget)) {
+                    dropdown.style.display = 'none';
+                }
+            });
+
+            // Обработчик для клика вне дропдауна и кнопки
+            document.addEventListener('click', (event) => {
+                if (!dropdown.contains(event.target) && !modelButton.contains(event.target)) {
+                    dropdown.style.display = 'none';
+                }
+            });
+
+            // Обработчики для скрытия дропдауна при клике на ссылки и картинки внутри него
+            const links = dropdown.querySelectorAll('a, img');
+            links.forEach(link => {
+                link.addEventListener('click', () => {
+                    dropdown.style.display = 'none';
+                });
+            });
+        });
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+
+        function openModal(src, alt) {
+            const modal = document.getElementById("myModal");
+            const modalImg = document.getElementById("modalImg");
+            const captionText = document.getElementById("caption");
+
+            modal.style.display = "flex";
+            modal.classList.add("show");
+            modalImg.src = src;
+            modalImg.alt = alt;
+            captionText.innerHTML = alt;
+        }
+
+        function closeModal() {
+            const modal = document.getElementById("myModal");
+            modal.classList.remove("show");
+            setTimeout(() => {
+                modal.style.display = "none";
+            }, 300); // Соответствует transition: opacity 0.3s ease
+        }
+
+
+        let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    captionText.innerHTML = dots[slideIndex - 1].alt;
+}
+
+        const items = document.querySelectorAll('.item');
+
+const expand = (item, i) => {
+    const containerWidth = document.querySelector('.group').offsetWidth;
+    const itemRect = item.getBoundingClientRect();
+    const itemWidth = itemRect.width;
+
+    items.forEach((it, ind) => {
+        if (i === ind) return;
+        it.clicked = false;
+        it.style.width = '10vw'; /* Изначальная ширина */
+        it.style.maxWidth = '10vw'; /* Максимальная ширина до раскрытия */
+        it.style.maxHeight = '75vh'; /* Максимальная высота до раскрытия */
+        it.style.borderRadius = '3vw';
+        it.classList.remove('expanded');
+    });
+
+    item.clicked = !item.clicked;
+    if (item.clicked) {
+        item.style.width = '42vw'; /* Ширина при раскрытии */
+        item.style.maxWidth = '42vw'; /* Максимальная ширина при раскрытии */
+        item.style.maxHeight = '80vh'; /* Максимальная высота при увеличенном размере */
+        item.classList.add('expanded');
+
+        // Check if expanding would cause overflow, then adjust the container
+        if (itemRect.left + itemWidth > containerWidth) {
+            const offset = itemRect.left + itemWidth - containerWidth;
+            document.querySelector('.group').scrollBy({
+                left: offset + 30, // 30px gap adjustment
+                behavior: 'smooth'
+            });
+        }
+    } else {
+        item.style.width = '10vw'; /* Изначальная ширина */
+        item.style.maxWidth = '10vw'; /* Максимальная ширина до раскрытия */
+        item.style.maxHeight = '75vh'; /* Максимальная высота до раскрытия */
+        item.classList.remove('expanded');
+    }
+};
+
+items.forEach((item, i) => {
+    item.clicked = false;
+    item.addEventListener('click', () => expand(item, i));
+})
+    </script>
+</body>
+
+</html>
