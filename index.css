@@ -777,22 +777,3 @@ body ul li, img{
     gap: 30px;
     padding: 1rem;
 }
-
-.item {
-    width: 10vw; /* Изначальная ширина */
-    height: auto; /* Автоматический расчет высоты на основе аспектного соотношения */
-    max-width: 10vw; /* Максимальная ширина до раскрытия */
-    max-height: 75vh; /* Максимальная высота для контроля */
-    border-radius: 3vw;
-    cursor: pointer;
-    flex-shrink: 0;
-    transition: width 0.3s ease, max-width 0.3s ease, max-height 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.item.expanded {
-    width: 42vw; /* Ширина при раскрытии */
-    max-width: 42vw; /* Максимальная ширина при раскрытии */
-    max-height: 80vh; /* Максимальная высота при увеличенном размере */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transform: scale(1.2); /* Увеличение масштаба при раскрытии */
-}
